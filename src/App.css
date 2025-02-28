@@ -1,0 +1,40 @@
+
+
+:root {
+    
+--light-cyan: hsl(193, 38%, 86%);
+--neon-green: hsl(150, 100%, 66%);
+--grayish-blue: hsl(217, 19%, 38%);
+--dark-grayish-blue: hsl(217, 19%, 24%);
+--dark-blue: hsl(218, 23%, 16%);
+}
+
+@font-face{
+    font-family : "manrope";
+    src:url(./assets/Manrope/Manrope-VariableFont_wght.ttf);
+}
+body{
+    background-color: var(--dark-blue);
+    font-family: "manrope";
+}
+
+#adviceCard {
+    background-color: var(--dark-grayish-blue);
+}
+
+#idTxt{
+    color:var(--neon-green);
+    font-size: 14px;
+    font-weight: 800;
+} 
+
+#adviceTxt {
+    font-size: 28px;
+    font-weight:800;
+    color: var(--light-cyan);
+}
+
+#diceBtn {
+    background-color: var(--neon-green);
+}
+
